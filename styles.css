@@ -1,0 +1,94 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Background */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    color: #333;
+    line-height: 1.6;
+    padding: 0;
+}
+
+/* Header Styling */
+.header {
+    background: #1a73e8;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 1.2em;
+}
+
+/* Section Layout */
+.mods {
+    padding: 30px 0;
+    background-color: #fff;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.mod-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.mod-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Mod Title Styling */
+.mod-card h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+/* Button Styling */
+.download-button {
+    background-color: #1a73e8;
+    color: white;
+    font-size: 1.1em;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.download-button:hover {
+    background-color: #1669c1;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+.footer p {
+    font-size: 1.2em;
+}
+
